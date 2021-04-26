@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2 # Action implemented in this repository, tag "2"
       - uses: joschi/setup-jdk@v2.3.0 # Action implemented in repository "joschi/setup-jdk" tag "2.3.0"
-      with: # Actions parameters (action name omitted)
-      java-version: 15
+        with: # Actions parameters (action name omitted)
+          java-version: 15
       - name: Build
       run: ./gradlew check
