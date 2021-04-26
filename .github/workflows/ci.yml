@@ -12,4 +12,4 @@ jobs:
         with: # Actions parameters (action name omitted)
           java-version: 15
       - name: Build
-      run: ./gradlew check
+        run: ./gradlew check
